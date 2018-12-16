@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    android:contentDescription="@string/todo"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/idivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO"
+        android:paddingTop="14dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/idivEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idivLogo"
+        android:layout_alignStart="@+id/idivLogo"
+        android:paddingTop="40dp"
+        app:srcCompat="@drawable/menu_empresa" />
+
+    <ImageView
+        android:id="@+id/idivServicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idivLogo"
+        android:layout_alignEnd="@+id/idivLogo"
+        android:paddingTop="40dp"
+        app:srcCompat="@drawable/menu_servico" />
+
+    <ImageView
+        android:id="@+id/idivClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idivEmpresa"
+        android:layout_alignStart="@+id/idivLogo"
+        android:paddingTop="40dp"
+        app:srcCompat="@drawable/menu_cliente" />
+
+    <ImageView
+        android:id="@+id/idivContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idivEmpresa"
+        android:layout_alignStart="@+id/idivServicos"
+        android:paddingTop="40dp"
+        app:srcCompat="@drawable/menu_contato" />
+</RelativeLayout>
