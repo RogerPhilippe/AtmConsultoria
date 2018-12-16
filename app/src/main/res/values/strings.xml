@@ -2,4 +2,5 @@
     <string name="app_name">AtmConsultoria</string>
     <string name="iv_content_description">TODO</string>
     <string name="todo">TODO</string>
+    <string name="label_a_empresa">A Empresa</string>
 </resources>
