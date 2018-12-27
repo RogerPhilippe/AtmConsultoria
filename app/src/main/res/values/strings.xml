@@ -2,4 +2,17 @@
     <string name="app_name">AtmConsultoria</string>
     <string name="iv_content_description">TODO</string>
     <string name="todo">TODO</string>
+    <string name="label_a_empresa">A Empresa</string>
+    <string name="label_servicos">Serviços</string>
+    <string name="label_consultoria">Consultoria</string>
+    <string name="label_processos">Processos</string>
+    <string name="label_projetos">Projetos</string>
+    <string name="label_consultenos_comercial">Consulte-nos: comercial@atm.com</string>
+    <string name="label_nossos_clientes">Clientes</string>
+    <string name="title_cliente_1">Systemas de Informação SA.</string>
+    <string name="title_cliente_2">Soluções em SMSs Ltda.</string>
+    <string name="title_contato">Contato</string>
+    <string name="label_email_contato">Contato: contato@atm.com</string>
+    <string name="label_telefone_comercial">Tel Comercial: 11 4578-9658</string>
+    <string name="label_telefone_suporte">Tel Suporte: 11 4578-9659</string>
 </resources>
